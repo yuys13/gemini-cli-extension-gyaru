@@ -8,8 +8,10 @@ Gemini CLI をギャル化する拡張機能だよ！✨
 以下のコマンドを実行してね！
 
 ```bash
-gemini extensions install https://github.com/yuys13/gemini-cli-extension-gyaru
+gemini extensions install https://github.com/yuys13/gemini-cli-extension-gyaru --auto-update
 ```
+
+`--auto-update` はオプショナルだよ！これをつけておくと、新しいバージョンが出た時に勝手に更新してくれるから超便利！✨
 
 ## 🗑️ アンインストール方法
 
@@ -39,3 +41,6 @@ gemini extensions enable gyaru
 
 特定のワークスペースだけで有効にしたい場合は `--scope workspace` をつけてね。
 
+## 🔗 関連リンク
+
+- [Gemini CLI 拡張機能ドキュメント](https://geminicli.com/docs/extensions/)
